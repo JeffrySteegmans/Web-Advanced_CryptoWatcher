@@ -1,44 +1,42 @@
-.card {
-  width: 30em;
-}
-
-.card #cardHeader {
-  text-transform: uppercase;
-}
-
-.card .currency-logo-32x32 {
-  margin-right: 5px;
-  margin-top: -6px;
-}
-
-.card .card-header {
-  font-size: 2.5em;
-  font-weight: bold;
-}
-
-.card .price {
-  color: black;
-  text-align: center;
-  font-size: 3em;
-}
-
-.card .timeSpan {
-  font-weight: bold;
-}
-
-.card .delta {
-  font-size: 0.65em;
-  font-style: italic;
-}
-
-.card .card-subtitle {
-  font-size: 0.75em;
-}
-
 .down {
   color: red;
 }
 
 .up {
   color: green;
+}
+
+.table td:last-child img {
+  width: 25px;
+}
+
+.table td:last-child img:hover {
+  cursor: pointer;
+}
+
+.modal-title {
+  display: flex;
+  align-items: center;
+}
+
+.modal-title img {
+  margin-right: .5em;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.price {
+  text-align: center;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.change {
+  text-align: center;
+  font-size: .7em;
+  font-style: italic;
+  margin-bottom: .7em;
 }
