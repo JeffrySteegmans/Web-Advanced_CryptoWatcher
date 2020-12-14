@@ -40,3 +40,7 @@
   font-style: italic;
   margin-bottom: .7em;
 }
+
+.testclass {
+  color: red;
+}
